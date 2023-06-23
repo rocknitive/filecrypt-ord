@@ -21,6 +21,7 @@ impl Media {
     ("application/pdf", Media::Pdf, &["pdf"]),
     ("application/pgp-signature", Media::Text, &["asc"]),
     ("application/yaml", Media::Text, &["yaml", "yml"]),
+    ("application/zlib", Media::Text, &["zlib"]),
     ("audio/flac", Media::Audio, &["flac"]),
     ("audio/mpeg", Media::Audio, &["mp3"]),
     ("audio/wav", Media::Audio, &["wav"]),
